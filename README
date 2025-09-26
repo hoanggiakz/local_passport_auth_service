@@ -1,8 +1,9 @@
-Local Passport Authentication Service
+# Local Passport Authentication Service
+
 
 This project demonstrates authentication in Node.js using Passport.js (Local Strategy) with MongoDB and Express sessions.
 
-1. Run Server
+## 1. Run Server
 
 Install dependencies:
 
@@ -17,12 +18,12 @@ node app.js
 Server will run on:
 👉 http://localhost:3000
 
-2. API Testing with Postman
+## 2. API Testing with Postman
 
 We use Postman to test all APIs.
 Passport.js manages authentication, and express-session automatically sets a session cookie (connect.sid) upon successful login.
 
-a. Register a new user
+# a. Register a new user
 
 Endpoint: POST /auth/register
 
@@ -43,7 +44,7 @@ Expected result:
 
 📷 Result file public/img/register.img
 
-b. Login
+# b. Login
 
 Endpoint: POST /auth/login
 
